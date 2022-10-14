@@ -1,0 +1,31 @@
+body {
+  font-family: sans-serif;
+}
+
+.card {
+  width: 200px;
+  height: 200px;
+  background-color: green;
+  display: inline-block;
+}
+
+#over {
+  font-size: 3rem;
+  margin-bottom: 4rem;
+}
+
+#retry {
+  background-color: black;
+  border-radius: 5px;
+  color: white;
+  padding: 8px;
+  font-size: 1rem;
+  letter-spacing: 1px;
+  margin-top: 1rem;
+}
+
+#retry:hover {
+  background-color: transparent;
+  cursor: pointer;
+  color: black;
+}
